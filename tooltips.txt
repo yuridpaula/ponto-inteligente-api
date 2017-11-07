@@ -1,0 +1,5 @@
+é possível definir o profile de execução via linha de comando, ex:
+java -jar -Dspring.profiles.active=test meu-primeiro-projeto-0.0.1-SNAPSHOT.jar
+
+
+optional é um recurso novo do java 8, ajuda atratar nullPoiterException, pois não fica retornando nulo.
